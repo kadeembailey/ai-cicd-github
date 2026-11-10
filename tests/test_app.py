@@ -22,7 +22,11 @@ class TestMath:
 
     def test_multiply_negative_numbers(self):
         """Test multiplying negative numbers."""
-        assert multiply(-2, 3) == -90
+        assert multiply(-2, 3) == -6
+
+    def test_multiple(self):
+        """Test multiplying two positive numbers."""
+        assert multiply(9, 9) == 81
 
 
 class TestStrings:
