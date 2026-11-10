@@ -1,6 +1,5 @@
 """Simple utility functions - you'll add more!"""
 
-
 def add(a: int, b: int) -> int:
     """Add two numbers together."""
     return a + b
@@ -14,3 +13,7 @@ def is_even(n: int) -> bool:
 def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
+
+def multiply(a: int, b: int) -> int:
+    """Multiply two numbers together."""
+    return a * b
